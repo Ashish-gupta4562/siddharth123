@@ -10,6 +10,7 @@ public class Controller {
         Controller c = new Controller();
         c.test();
         c.test1();
+        c.test2();
     }
     public void test(){
         System.out.println("from test");
@@ -17,6 +18,10 @@ public class Controller {
 
     public void test1(){
         System.out.println("from test1");
+    }
+
+    public void test2(){
+        System.out.println("from test2");
     }
 
 
