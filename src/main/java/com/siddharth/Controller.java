@@ -11,6 +11,7 @@ public class Controller {
         c.test();
         c.test1();
         c.test2();
+        c.test3();
     }
     public void test(){
         System.out.println("from test");
@@ -24,6 +25,8 @@ public class Controller {
         System.out.println("from test2");
     }
 
-
+    public void test3(){
+        System.out.println("from test2");
+    }
 
 }
