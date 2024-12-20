@@ -12,6 +12,8 @@ public class Controller {
         c.test1();
         c.test2();
         c.test3();
+        c.test2();
+        System.out.println(12);
     }
     public void test(){
         System.out.println("from test");
