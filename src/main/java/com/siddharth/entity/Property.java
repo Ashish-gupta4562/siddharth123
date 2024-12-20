@@ -13,5 +13,14 @@ public class Property {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
+    private String name;
+    private String email;
+
+    public int getId(){
+        return getId();
+    }
+    public void setId(Long id){
+        this.id=id;
+    }
 
 }
